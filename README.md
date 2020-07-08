@@ -1,6 +1,6 @@
 ﻿# Machine Learning
-
-1. Visualization of three types of flowers in the Iris dataset using Matplotlib
+ 
+ This repository consists of implementation of basic Machine Learning algorithms. 
 
 # Linear Regression
 ## Regression Model to Predict Bike Rentals in Washington, DC
@@ -41,8 +41,58 @@ Should randomize the data file and put 439 data sets in your training set file, 
 Dataset: 
 Code file: 
 
-3. Logistic Regression
+# Classification with Logistic Regression
 
-4. Naive Bayes Implemtation
+## Problem description: 
+Apply Logistic Regression to the Divorce Predictors Scale to classify whether married couples will eventually divorce. 
+Each of the questions in the appendix were answered on a scale of 0 (Strongly Disagree) to 4 (Strongly Agree). Our data set has 54 questions (features, n) and 170 sets of data (m). 
 
-5. K-means Implementation
+## Dataset Description:
+Data file is formatted with the first line containing m and n, tab separated). Then each line following has 55 entries, the first 54 are the responses to the questions below (0-4) followed by a y coded as either 0 (divorce class) or 1 (did not divorce class). 
+
+## Aim:
+To develop a binary classifier to predict whether a person will divorce (0) or stay married (1).
+
+Dataset used: DivorseAll.txt
+Code file: Patil_Mugdha_P2.py
+
+# Building a Spam Filter using a Naïve Bayes Classifier
+
+## Problem description and Dataset:
+ 
+To build a Naïve Bayes Spam filter. A labeled training set file and a labeled test set file is provoided. Both files will have the same format. Each line will start with either a 1 (Spam) or a 0 (Ham), then a space, followed by an email subject line. A third file will contain a list of Stop Words—common words that you should remove from your vocabulary list. Format of the Stop Word list will be one word per line.
+
+## Aim:
+the program should prompt the user for the name of a training set file in the format described above and for the name of the file of Stop Words. It should create a vocabulary of words found in the subject lines of the training set associated with an estimated probability of each word appearing in a Spam and the estimated probability of each word appearing in a Ham email. The program should then prompt the user for a labeled test set and predict the class (1 = Spam, 0 = Ham) of each subject line using a Naïve Bayes approach
+
+Training file:
+Testing file:
+Code file:
+
+## K-means Clustering
+
+## Problem and Dataset Description
+Aim is to implement a K-means clustering algorithm.The data file will be formatted with first line containing m and n, tab separated, wherem is the number of lines of data and n is the number of features (for this assignment n will be 2 but assume we still put it into the file.)
+
+## Aim:
+1. The program should prompt the user for the name of a data file.
+
+2. Prompt the user for the name of a file containing two initial centroids.
+
+3. Print out the coordinates of the two initial centroids.
+
+4. Print out a plot of the data to the screen, including the two initial centroids.
+
+5. Run K means (K=2) to cluster the data into two groups.
+
+6. Print out a plot of the cluster data with each cluster color coded along with the
+final centroids.
+
+7. Print out the coordinates of the final centroids.
+
+8. Compute and print out the overall error (J function presented in class) for the
+entire data set.
+
+Dataset: 
+Code file:
+
