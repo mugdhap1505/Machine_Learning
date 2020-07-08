@@ -54,8 +54,11 @@ Data file is formatted with the first line containing m and n, tab separated). T
 To develop a binary classifier to predict whether a person will divorce (0) or stay married (1).
 
 Dataset used: DivorseAll.txt
+
 Training file: Patil_Mugdha_Train.txt
+
 Testing file: Patil_Mugdha_Test.txt
+
 Code file: Patil_Mugdha_P2.py
 
 # Building a Spam Filter using a Naïve Bayes Classifier
@@ -68,9 +71,13 @@ To build a Naïve Bayes Spam filter. A labeled training set file and a labeled t
 the program should prompt the user for the name of a training set file in the format described above and for the name of the file of Stop Words. It should create a vocabulary of words found in the subject lines of the training set associated with an estimated probability of each word appearing in a Spam and the estimated probability of each word appearing in a Ham email. The program should then prompt the user for a labeled test set and predict the class (1 = Spam, 0 = Ham) of each subject line using a Naïve Bayes approach
 
 Training file: SHTrain.txt
+
 Testing file: SHTest.txt
+
 Stopwords file: StopWords.txt
+
 Code file: Patil_Mugdha_P3.py
+
 Jupyter notebook: https://github.com/mugdhap1505/Machine_Learning/blob/master/Naive%20Bayes%20Implementation.ipynb
 
 ## K-means Clustering
@@ -98,5 +105,7 @@ final centroids.
 entire data set.
 
 Dataset file: P4Data.txt
+
 Code file: Patil_Mugdha_P4.py
+
 Jupyter notebook: https://github.com/mugdhap1505/Machine_Learning/blob/master/K-means%20.ipynb
